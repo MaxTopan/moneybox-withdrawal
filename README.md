@@ -1,3 +1,7 @@
+## Changes
+* Implemented withdrawals and deposits to Account
+* Refactored TransferMoney
+
 # Moneybox Money Withdrawal
 
 The solution contains a .NET core library (Moneybox.App) which is structured into the following 3 folders:
