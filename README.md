@@ -2,6 +2,12 @@
 * Implemented withdrawals and deposits to Account
 * Refactored TransferMoney
 
+I decided to move the functionality in TransferMoney to Account to increase efficiency, as the withdrawal aspect is used in both withdrawing and tranferring.
+From there implementation of WithdrawMoney became easier, as it was just implementing the first half of transfer.
+
+With more time I would look at the edge case of a user transferring money, to someone who has reached their PayInLimit, as in this case the money is taken out of the original user's account, but not deposited into the second user's.
+
+
 # Moneybox Money Withdrawal
 
 The solution contains a .NET core library (Moneybox.App) which is structured into the following 3 folders:
